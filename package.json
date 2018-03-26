@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/garritfra/satirical-design/issues"
   },
-  "homepage": "https://github.com/garritfra/satirical-design#readme"
+  "homepage": "https://github.com/garritfra/satirical-design#readme",
+  "dependencies": {
+    "react": "^16.2.0"
+  }
 }
