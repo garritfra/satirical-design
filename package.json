@@ -10,7 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/garritfra/satirical-design.git"
   },
-  "keywords": ["Google", "Material", "Design", "UI", "React"],
+  "keywords": [
+    "Google",
+    "Material",
+    "Design",
+    "UI",
+    "React"
+  ],
   "author": "Garrit Franke",
   "license": "MIT",
   "bugs": {
