@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/garritfra/satirical-design.git"
+    "url": "git+https://github.com/garritfra/satirical-ui.git"
   },
   "keywords": [
     "Google",
@@ -20,9 +20,9 @@
   "author": "Garrit Franke",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/garritfra/satirical-design/issues"
+    "url": "https://github.com/garritfra/satirical-ui/issues"
   },
-  "homepage": "https://github.com/garritfra/satirical-design#readme",
+  "homepage": "https://github.com/garritfra/satirical-ui#readme",
   "dependencies": {
     "react": "^16.2.0"
   }
