@@ -1,6 +1,6 @@
 {
   "name": "satirical-ui",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Geegles Satirical Design",
   "main": "./dist/js/main.js",
   "scripts": {
