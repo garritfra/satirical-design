@@ -1,0 +1,26 @@
+{
+  "name": "satirical-design",
+  "version": "1.0.0",
+  "description": "Geegles Satirical Design",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garritfra/satirical-design.git"
+  },
+  "keywords": [
+    "Google",
+    "Material",
+    "Design",
+    "UI",
+    "React"
+  ],
+  "author": "Garrit Franke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garritfra/satirical-design/issues"
+  },
+  "homepage": "https://github.com/garritfra/satirical-design#readme"
+}
