@@ -2,9 +2,9 @@
   "name": "satirical-ui",
   "version": "0.0.5",
   "description": "Geegles Satirical Design!",
-  "main": "index.js",
+  "main": "dist/lib",
   "scripts": {
-    "build": "parcel build lib",
+    "build": "parcel build lib/index.js",
     "prepublish": "npm run build"
   },
   "repository": {
