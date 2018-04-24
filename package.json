@@ -4,7 +4,7 @@
   "description": "Geegles Satirical Design!",
   "main": "index.js",
   "scripts": {
-    "build": "parcel lib",
+    "build": "parcel build lib",
     "prepublish": "npm run build"
   },
   "repository": {
