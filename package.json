@@ -4,7 +4,8 @@
   "description": "Geegles Satirical Design!",
   "main": "index.js",
   "scripts": {
-    "test": ""
+    "build": "parcel lib",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
   },
   "homepage": "https://github.com/garritfra/satirical-ui#readme",
   "dependencies": {
+    "parcel-bundler": "^1.7.1",
+    "prop-types": "^15.6.1",
     "react": "^16.3.2",
+    "react-dom": "^16.3.2",
     "styled-components": "^3.2.6"
   }
 }
