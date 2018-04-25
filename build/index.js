@@ -1,7 +1,14 @@
 "use strict";
 
-var Button = require("./components/Button");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Button = undefined;
 
-module.exports = {
-  Button: Button
-};
+var _Button = require("./components/Button");
+
+var _Button2 = _interopRequireDefault(_Button);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.Button = _Button2.default;

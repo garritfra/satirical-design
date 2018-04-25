@@ -14,5 +14,4 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var Button = _styledComponents2.default.button(_templateObject);
-exports.default = Button;
+exports.default = Button = _styledComponents2.default.button(_templateObject);
