@@ -1,17 +1,7 @@
 "use strict";
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+var Button = require("./components/Button");
 
-var _Button = require("./components/Button");
-
-Object.keys(_Button).forEach(function (key) {
-  if (key === "default" || key === "__esModule") return;
-  Object.defineProperty(exports, key, {
-    enumerable: true,
-    get: function get() {
-      return _Button[key];
-    }
-  });
-});
+module.exports = {
+  Button: Button
+};
