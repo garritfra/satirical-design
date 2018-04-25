@@ -6,10 +6,12 @@ Object.defineProperty(exports, "__esModule", {
 
 var _Button = require("./components/Button");
 
-var _Button2 = _interopRequireDefault(_Button);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = {
-  Button: _Button2.default
-};
+Object.keys(_Button).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _Button[key];
+    }
+  });
+});
